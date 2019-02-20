@@ -1,13 +1,24 @@
 {
-  "name": "smartcoordinates",
+  "name": "perceptron",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fpdrozd/Perceptron.git"
+  },
+  "author": "Filip Drozd",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fpdrozd/Perceptron/issues"
+  },
+  "homepage": "https://github.com/fpdrozd/Perceptron#readme",
   "dependencies": {
-    "vue": "^2.5.17"
+    "vue": "^2.5.17",
+    "vue-ramda": "^1.0.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.0.1",
